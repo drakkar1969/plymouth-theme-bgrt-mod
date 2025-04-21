@@ -1,0 +1,99 @@
+[Plymouth Theme]
+Name[be]=BGRT Mod
+Name[cs]=BGRT Mod
+Name[da]=BGRT Mod
+Name[de]=BGRT Mod
+Name[eo]=BGRT Mod
+Name[es]=BGRT Mod
+Name[eu]=BGRT Mod
+Name[fr]=BGRT Mod
+Name[fur]=BGRT Mod
+Name[hi]=BGRT Mod
+Name[hr]=BGRT Mod
+Name[hu]=BGRT Mod
+Name[id]=BGRT Mod
+Name[it]=BGRT Mod
+Name[lt]=BGRT Mod
+Name[ka]=BGRT Mod
+Name[nl]=BGRT Mod
+Name[pa]=BGRT Mod
+Name[pl]=BGRT Mod
+Name[pt_BR]=BGRT Mod
+Name[ro]=BGRT Mod
+Name[ru]=BGRT Mod
+Name[sr]=BGRT Mod
+Name[sv]=BGRT Mod
+Name[uk]=BGRT Mod
+Name[zh_CN]=BGRT Mod
+Name[ms]=BGRT Mod
+Name[he]=BGRT Mod
+Name[fa]=BGRT Mod
+Name[fi]=BGRT Mod
+Name[ie]=BGRT Mod
+Name[gl]=BGRT Mod
+Name[cy]=BGRT Mod
+Name[kk]=BGRT Mod
+Name[sl]=BGRT Mod
+Name[el]=BGRT Mod
+Name=BGRT Mod
+Description=Spinner theme with ACPI logo as background (no watermark)
+ModuleName=two-step
+
+[two-step]
+Font=Cantarell 12
+TitleFont=Cantarell Light 30
+ImageDir=/usr/share/plymouth/themes//bgrt-mod
+DialogHorizontalAlignment=.5
+DialogVerticalAlignment=.382
+TitleHorizontalAlignment=.5
+TitleVerticalAlignment=.382
+HorizontalAlignment=.5
+VerticalAlignment=.7
+Transition=none
+TransitionDuration=0.0
+BackgroundStartColor=0x000000
+BackgroundEndColor=0x000000
+ProgressBarBackgroundColor=0x606060
+ProgressBarForegroundColor=0xffffff
+DialogClearsFirmwareBackground=true
+MessageBelowAnimation=true
+
+[boot-up]
+UseEndAnimation=false
+UseFirmwareBackground=true
+
+[shutdown]
+UseEndAnimation=false
+UseFirmwareBackground=true
+
+[reboot]
+UseEndAnimation=false
+UseFirmwareBackground=true
+
+[updates]
+SuppressMessages=true
+ProgressBarShowPercentComplete=true
+UseProgressBar=true
+Title=Installing Updates...
+SubTitle=Do not turn off your computer
+
+[system-upgrade]
+SuppressMessages=true
+ProgressBarShowPercentComplete=true
+UseProgressBar=true
+Title=Upgrading System...
+SubTitle=Do not turn off your computer
+
+[firmware-upgrade]
+SuppressMessages=true
+ProgressBarShowPercentComplete=true
+UseProgressBar=true
+Title=Upgrading Firmware...
+SubTitle=Do not turn off your computer
+
+[system-reset]
+SuppressMessages=true
+ProgressBarShowPercentComplete=true
+UseProgressBar=true
+Title=Resetting System...
+SubTitle=Do not turn off your computer
